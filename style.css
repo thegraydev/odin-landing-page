@@ -136,8 +136,8 @@ button {
 
 .box {
     border: solid 5px #3882f6;
-    width: 175px;
-    height: 175px;
+    width: 10em;
+    height: 10em;
     border-radius: 15px;
 }
 
@@ -165,4 +165,65 @@ button {
     font-style: normal;
     font-weight: 500;
     margin: 0;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 1px;
+    background-color: #3882f6;
+    border-radius: 7px;
+    width: 60em;
+    height: 125px;
+}
+
+.blue-box-text {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 500;
+    height: 50px;
+}
+
+.sign {
+    height: 50px;
+}
+
+.box-button {
+    border: 2px solid #f9faf8;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 4em;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.foot a {
+    color: #e5e7eb;
+}
+
+.foot a:link {
+    text-decoration: none;
+}
+
+.foot a:hover {
+    text-decoration: underline;
 }
